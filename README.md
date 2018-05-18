@@ -13,6 +13,10 @@ UIImage extensions to use PDF files.
 pod 'UIImagePlusPDF'
 ```
 
+``` swift
+import UIImagePlusPDF
+```
+
 ## Usage
 **Simple example:**
 ``` swift

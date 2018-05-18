@@ -1,5 +1,6 @@
 # UIImagePlusPDF
 [![Swift 4](https://img.shields.io/badge/Swift-4-orange.svg?style=flat)](https://developer.apple.com/swift/) [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
+
 UIImage extensions to use PDF files.
 
 ## Usage
@@ -41,13 +42,42 @@ UIImage.pdfCacheOnDisk = true
 ```
 **Cache deleting:**
 ``` swift
-static func removeAllPDFCache()
-static func removeAllPDFMemoryCache()
-static func removeAllPDFDiskCache()
-static func removeMemoryCachedPDFImage(with name: String, size: CGSize, pageNumber: Int = 1)
-static func removeMemoryCachedPDFImage(with url: URL, size: CGSize, pageNumber: Int = 1)
-static func removeDiskCachedPDFImage(with name: String, size: CGSize, pageNumber: Int = 1)
-static func removeDiskCachedPDFImage(with url: URL, size: CGSize, pageNumber: Int = 1)
+//all cache
+UIImage.removeAllPDFCache()
+
+//all memory cache
+UIImage.removeAllPDFMemoryCache()
+
+//all disk cache
+UIImage.removeAllPDFDiskCache()
+
+//memory cached pdf with name
+UIImage.removeMemoryCachedPDFImage(
+    with: "pdf name", 
+    size: CGSize(width: usedWidth, height: usedHeight), 
+    pageNumber: 1 /*optional, default is 1*/
+)
+
+//memory cached pdf with url
+UIImage.removeMemoryCachedPDFImage(
+    with: URL(string: "path"), 
+    size: CGSize(width: usedWidth, height: usedHeight), 
+    pageNumber: 1 /*optional, default is 1*/
+)
+
+//disk cached pdf with name
+static func removeDiskCachedPDFImage(
+    with: "pdf name", 
+    size: CGSize(width: usedWidth, height: usedHeight), 
+    pageNumber: 1 /*optional, default is 1*/
+)
+
+//disk cached pdf with url
+static func removeDiskCachedPDFImage(
+    with: URL(string: "path"), 
+    size: CGSize(width: usedWidth, height: usedHeight), 
+    pageNumber: 1 /*optional, default is 1*/
+)
 ```
 ## License
 **UIImagePlusPDF** is under MIT license. See the [LICENSE](LICENSE) file for more info.

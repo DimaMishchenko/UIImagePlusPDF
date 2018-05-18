@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96197AFA20AC63FE000A0C3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96197AF920AC63FE000A0C3C /* AppDelegate.swift */; };
+		96197AFC20AC63FE000A0C3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96197AFB20AC63FE000A0C3C /* ViewController.swift */; };
+		96197AFF20AC63FE000A0C3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96197AFD20AC63FE000A0C3C /* Main.storyboard */; };
+		96197B0120AC6401000A0C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96197B0020AC6401000A0C3C /* Assets.xcassets */; };
+		96197B0420AC6401000A0C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96197B0220AC6401000A0C3C /* LaunchScreen.storyboard */; };
+		96197B0F20AC6402000A0C3C /* UIImagePlusPDFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96197B0E20AC6402000A0C3C /* UIImagePlusPDFTests.swift */; };
+		96197B1B20AC6431000A0C3C /* UIImage+PDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96197B1A20AC6431000A0C3C /* UIImage+PDF.swift */; };
+		96197B1D20AC6B41000A0C3C /* cat.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 96197B1C20AC6B41000A0C3C /* cat.pdf */; };
+		96DFF67220AEE5A800468D4F /* dora.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 96DFF67120AEE5A700468D4F /* dora.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96197B0B20AC6402000A0C3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96197AEE20AC63FE000A0C3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96197AF520AC63FE000A0C3C;
+			remoteInfo = UIImagePlusPDF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96197AF620AC63FE000A0C3C /* UIImagePlusPDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIImagePlusPDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96197AF920AC63FE000A0C3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96197AFB20AC63FE000A0C3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96197AFE20AC63FE000A0C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96197B0020AC6401000A0C3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96197B0320AC6401000A0C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96197B0520AC6401000A0C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96197B0A20AC6402000A0C3C /* UIImagePlusPDFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImagePlusPDFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96197B0E20AC6402000A0C3C /* UIImagePlusPDFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagePlusPDFTests.swift; sourceTree = "<group>"; };
+		96197B1020AC6402000A0C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96197B1A20AC6431000A0C3C /* UIImage+PDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+PDF.swift"; sourceTree = "<group>"; };
+		96197B1C20AC6B41000A0C3C /* cat.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = cat.pdf; sourceTree = "<group>"; };
+		96DFF67120AEE5A700468D4F /* dora.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = dora.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96197AF320AC63FE000A0C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96197B0720AC6402000A0C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96197AED20AC63FE000A0C3C = {
+			isa = PBXGroup;
+			children = (
+				96197B1920AC6423000A0C3C /* UIImage+PDF */,
+				96197AF820AC63FE000A0C3C /* UIImagePlusPDF */,
+				96197B0D20AC6402000A0C3C /* UIImagePlusPDFTests */,
+				96197AF720AC63FE000A0C3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96197AF720AC63FE000A0C3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96197AF620AC63FE000A0C3C /* UIImagePlusPDF.app */,
+				96197B0A20AC6402000A0C3C /* UIImagePlusPDFTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96197AF820AC63FE000A0C3C /* UIImagePlusPDF */ = {
+			isa = PBXGroup;
+			children = (
+				96DFF67120AEE5A700468D4F /* dora.pdf */,
+				96197B1C20AC6B41000A0C3C /* cat.pdf */,
+				96197AF920AC63FE000A0C3C /* AppDelegate.swift */,
+				96197AFB20AC63FE000A0C3C /* ViewController.swift */,
+				96197AFD20AC63FE000A0C3C /* Main.storyboard */,
+				96197B0020AC6401000A0C3C /* Assets.xcassets */,
+				96197B0220AC6401000A0C3C /* LaunchScreen.storyboard */,
+				96197B0520AC6401000A0C3C /* Info.plist */,
+			);
+			path = UIImagePlusPDF;
+			sourceTree = "<group>";
+		};
+		96197B0D20AC6402000A0C3C /* UIImagePlusPDFTests */ = {
+			isa = PBXGroup;
+			children = (
+				96197B0E20AC6402000A0C3C /* UIImagePlusPDFTests.swift */,
+				96197B1020AC6402000A0C3C /* Info.plist */,
+			);
+			path = UIImagePlusPDFTests;
+			sourceTree = "<group>";
+		};
+		96197B1920AC6423000A0C3C /* UIImage+PDF */ = {
+			isa = PBXGroup;
+			children = (
+				96197B1A20AC6431000A0C3C /* UIImage+PDF.swift */,
+			);
+			path = "UIImage+PDF";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96197AF520AC63FE000A0C3C /* UIImagePlusPDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96197B1320AC6402000A0C3C /* Build configuration list for PBXNativeTarget "UIImagePlusPDF" */;
+			buildPhases = (
+				96197AF220AC63FE000A0C3C /* Sources */,
+				96197AF320AC63FE000A0C3C /* Frameworks */,
+				96197AF420AC63FE000A0C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIImagePlusPDF;
+			productName = UIImagePlusPDF;
+			productReference = 96197AF620AC63FE000A0C3C /* UIImagePlusPDF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96197B0920AC6402000A0C3C /* UIImagePlusPDFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96197B1620AC6402000A0C3C /* Build configuration list for PBXNativeTarget "UIImagePlusPDFTests" */;
+			buildPhases = (
+				96197B0620AC6402000A0C3C /* Sources */,
+				96197B0720AC6402000A0C3C /* Frameworks */,
+				96197B0820AC6402000A0C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96197B0C20AC6402000A0C3C /* PBXTargetDependency */,
+			);
+			name = UIImagePlusPDFTests;
+			productName = UIImagePlusPDFTests;
+			productReference = 96197B0A20AC6402000A0C3C /* UIImagePlusPDFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96197AEE20AC63FE000A0C3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Dima;
+				TargetAttributes = {
+					96197AF520AC63FE000A0C3C = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					96197B0920AC6402000A0C3C = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 96197AF520AC63FE000A0C3C;
+					};
+				};
+			};
+			buildConfigurationList = 96197AF120AC63FE000A0C3C /* Build configuration list for PBXProject "UIImagePlusPDF" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96197AED20AC63FE000A0C3C;
+			productRefGroup = 96197AF720AC63FE000A0C3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96197AF520AC63FE000A0C3C /* UIImagePlusPDF */,
+				96197B0920AC6402000A0C3C /* UIImagePlusPDFTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96197AF420AC63FE000A0C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96197B0420AC6401000A0C3C /* LaunchScreen.storyboard in Resources */,
+				96197B0120AC6401000A0C3C /* Assets.xcassets in Resources */,
+				96197AFF20AC63FE000A0C3C /* Main.storyboard in Resources */,
+				96197B1D20AC6B41000A0C3C /* cat.pdf in Resources */,
+				96DFF67220AEE5A800468D4F /* dora.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96197B0820AC6402000A0C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96197AF220AC63FE000A0C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96197AFC20AC63FE000A0C3C /* ViewController.swift in Sources */,
+				96197B1B20AC6431000A0C3C /* UIImage+PDF.swift in Sources */,
+				96197AFA20AC63FE000A0C3C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96197B0620AC6402000A0C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96197B0F20AC6402000A0C3C /* UIImagePlusPDFTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96197B0C20AC6402000A0C3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96197AF520AC63FE000A0C3C /* UIImagePlusPDF */;
+			targetProxy = 96197B0B20AC6402000A0C3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96197AFD20AC63FE000A0C3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96197AFE20AC63FE000A0C3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96197B0220AC6401000A0C3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96197B0320AC6401000A0C3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96197B1120AC6402000A0C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96197B1220AC6402000A0C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96197B1420AC6402000A0C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77X75EH6F4;
+				INFOPLIST_FILE = UIImagePlusPDF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dima.uiimage.pdf.UIImagePlusPDF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96197B1520AC6402000A0C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77X75EH6F4;
+				INFOPLIST_FILE = UIImagePlusPDF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dima.uiimage.pdf.UIImagePlusPDF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96197B1720AC6402000A0C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77X75EH6F4;
+				INFOPLIST_FILE = UIImagePlusPDFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dima.uiimage.pdf.UIImagePlusPDFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIImagePlusPDF.app/UIImagePlusPDF";
+			};
+			name = Debug;
+		};
+		96197B1820AC6402000A0C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77X75EH6F4;
+				INFOPLIST_FILE = UIImagePlusPDFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dima.uiimage.pdf.UIImagePlusPDFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIImagePlusPDF.app/UIImagePlusPDF";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96197AF120AC63FE000A0C3C /* Build configuration list for PBXProject "UIImagePlusPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96197B1120AC6402000A0C3C /* Debug */,
+				96197B1220AC6402000A0C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96197B1320AC6402000A0C3C /* Build configuration list for PBXNativeTarget "UIImagePlusPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96197B1420AC6402000A0C3C /* Debug */,
+				96197B1520AC6402000A0C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96197B1620AC6402000A0C3C /* Build configuration list for PBXNativeTarget "UIImagePlusPDFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96197B1720AC6402000A0C3C /* Debug */,
+				96197B1820AC6402000A0C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96197AEE20AC63FE000A0C3C /* Project object */;
+}

@@ -1,7 +1,17 @@
 # UIImagePlusPDF
-[![Swift 4](https://img.shields.io/badge/Swift-4-orange.svg?style=flat)](https://developer.apple.com/swift/) [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
+[![Swift 4](https://img.shields.io/badge/Swift-4-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![CocoaPods compatible](https://img.shields.io/cocoapods/v/UIImagePlusPDF.svg)](https://cocoapods.org/pods/UIImagePlusPDF)
+[![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
 
 UIImage extensions to use PDF files.
+
+## Installation
+
+[CocoaPods](http://www.cocoapods.org):
+
+``` ruby
+pod 'UIImagePlusPDF'
+```
 
 ## Usage
 **Simple example:**

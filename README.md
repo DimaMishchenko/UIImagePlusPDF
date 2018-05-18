@@ -66,14 +66,14 @@ UIImage.removeMemoryCachedPDFImage(
 )
 
 //disk cached pdf with name
-static func removeDiskCachedPDFImage(
+UIImage.removeDiskCachedPDFImage(
     with: "pdf name", 
     size: CGSize(width: usedWidth, height: usedHeight), 
     pageNumber: 1 /*optional, default is 1*/
 )
 
 //disk cached pdf with url
-static func removeDiskCachedPDFImage(
+UIImage.removeDiskCachedPDFImage(
     with: URL(string: "path"), 
     size: CGSize(width: usedWidth, height: usedHeight), 
     pageNumber: 1 /*optional, default is 1*/

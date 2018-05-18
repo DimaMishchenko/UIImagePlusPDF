@@ -26,7 +26,7 @@ import Foundation
 
 // MARK: - UIImage+PDF
 
-extension UIImage {
+public extension UIImage {
     
     static func pdfImage(with name: String, width: CGFloat, pageNumber: Int = 1) -> UIImage? {
         
@@ -176,7 +176,7 @@ extension UIImage {
 
 // MARK: - Cache Public
 
-extension UIImage {
+public extension UIImage {
     
     static var pdfCacheOnDisk = false
     static var pdfCacheInMemory = true

@@ -11,6 +11,9 @@ UIImage extensions to use PDF files.
 
 ``` ruby
 pod 'UIImagePlusPDF'
+
+#for swift less than 4.2 use:
+pod 'UIImagePlusPDF', '~> 1.0.1'
 ```
 
 ``` swift

@@ -124,7 +124,7 @@ extension UIImage {
         
         guard
             let image = imageFromContext,
-            let imageData = UIImagePNGRepresentation(image),
+            let imageData = image.pngData(),
             let cgImage = image.cgImage
         else { return nil }
 

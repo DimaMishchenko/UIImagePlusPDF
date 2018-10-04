@@ -1,5 +1,5 @@
 # UIImagePlusPDF
-[![Swift 4](https://img.shields.io/badge/Swift-4-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![Swift 4.2](https://img.shields.io/badge/Swift-4.2-orange.svg?style=flat)](https://developer.apple.com/swift/)
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/UIImagePlusPDF.svg)](https://cocoapods.org/pods/UIImagePlusPDF)
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
 

@@ -3,7 +3,7 @@
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/UIImagePlusPDF.svg)](https://cocoapods.org/pods/UIImagePlusPDF)
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
 
-UIImage extensions to use PDF files.
+UIImage extensions to use PDF files. Using `UIImagePlusPDF` you can avoid a lot `.png` images files (1x, 2x, 3x sizes) and simply replace each of them with only one `.pdf` file.
 
 ## Installation
 

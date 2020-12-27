@@ -1,5 +1,5 @@
 # UIImagePlusPDF
-[![Swift 4.2](https://img.shields.io/badge/Swift-4.2-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![Swift 4.2](https://img.shields.io/badge/Swift-5.3-orange.svg?style=flat)](https://developer.apple.com/swift/)
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/UIImagePlusPDF.svg)](https://cocoapods.org/pods/UIImagePlusPDF)
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
 
@@ -12,9 +12,6 @@ Using `UIImagePlusPDF` you can avoid a lot `png` images files (1x, 2x, 3x sizes)
 
 ``` ruby
 pod 'UIImagePlusPDF'
-
-#for swift less than 4.2 use:
-pod 'UIImagePlusPDF', '~> 1.0.1'
 ```
 
 ``` swift
@@ -72,28 +69,28 @@ UIImage.removeAllPDFDiskCache()
 //memory cached pdf with name
 UIImage.removeMemoryCachedPDFImage(
     with: "pdf name", 
-    size: CGSize(width: usedWidth, height: usedHeight), 
+    size: imageSize, 
     pageNumber: 1 /*optional, default is 1*/
 )
 
 //memory cached pdf with url
 UIImage.removeMemoryCachedPDFImage(
     with: URL(string: "path"), 
-    size: CGSize(width: usedWidth, height: usedHeight), 
+    size: imageSize, 
     pageNumber: 1 /*optional, default is 1*/
 )
 
 //disk cached pdf with name
 UIImage.removeDiskCachedPDFImage(
     with: "pdf name", 
-    size: CGSize(width: usedWidth, height: usedHeight), 
+    size: imageSize, 
     pageNumber: 1 /*optional, default is 1*/
 )
 
 //disk cached pdf with url
 UIImage.removeDiskCachedPDFImage(
     with: URL(string: "path"), 
-    size: CGSize(width: usedWidth, height: usedHeight), 
+    size: imageSize, 
     pageNumber: 1 /*optional, default is 1*/
 )
 ```

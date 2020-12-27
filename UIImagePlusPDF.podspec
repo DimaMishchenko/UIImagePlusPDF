@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'UIImagePlusPDF'
-  s.version          = '1.1.0'
+  s.version          = '1.2.0'
   s.summary          = 'UIImage PDF extensions'
  
   s.description      = <<-DESC
@@ -14,6 +14,6 @@ UIImage PDF extensions.
  
   s.ios.deployment_target = '9.0'
   s.source_files = 'UIImage+PDF/*'
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
  
 end
